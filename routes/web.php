@@ -15,7 +15,7 @@ Route::get('/', function () {
     $data = [
         'title' => 'SIAKAD'
     ];
-    return view('welcome', $data);
+    return view('template.index', $data);
 });
 
 Route::get('/admin', function (){
@@ -25,3 +25,5 @@ Route::get('/admin', function (){
 
     return view('welcome', $data);
 });
+
+
