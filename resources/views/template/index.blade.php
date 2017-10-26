@@ -999,26 +999,26 @@
 <script src="{{ asset('assets/vendors/skycons/skycons.js') }}"></script>
 <!-- Flot -->
 <script src="{{ asset('assets/vendors/Flot/jquery.flot.js') }}"></script>
-<script src="../vendors/Flot/jquery.flot.pie.js"></script>
-<script src="../vendors/Flot/jquery.flot.time.js"></script>
-<script src="../vendors/Flot/jquery.flot.stack.js"></script>
-<script src="../vendors/Flot/jquery.flot.resize.js"></script>
+<script src="{{ asset('assets/vendors/Flot/jquery.flot.pie.js') }}"></script>
+<script src="{{ asset('assets/vendors/Flot/jquery.flot.time.js') }}"></script>
+<script src="{{ asset('assets/vendors/Flot/jquery.flot.stack.js') }}"></script>
+<script src="{{ asset('assets/vendors/Flot/jquery.flot.resize.js') }}"></script>
 <!-- Flot plugins -->
-<script src="../vendors/flot.orderbars/js/jquery.flot.orderBars.js"></script>
-<script src="../vendors/flot-spline/js/jquery.flot.spline.min.js"></script>
-<script src="../vendors/flot.curvedlines/curvedLines.js"></script>
+<script src="{{ asset('assets/vendors/flot.orderbars/js/jquery.flot.orderBars.js') }}"></script>
+<script src="{{ asset('assets/vendors/flot-spline/js/jquery.flot.spline.min.js') }}"></script>
+<script src="{{ asset('assets/vendors/flot.curvedlines/curvedLines.js') }}"></script>
 <!-- DateJS -->
-<script src="../vendors/DateJS/build/date.js"></script>
+<script src="{{ asset('assets/vendors/DateJS/build/date.js') }}"></script>
 <!-- JQVMap -->
-<script src="../vendors/jqvmap/dist/jquery.vmap.js"></script>
-<script src="../vendors/jqvmap/dist/maps/jquery.vmap.world.js"></script>
-<script src="../vendors/jqvmap/examples/js/jquery.vmap.sampledata.js"></script>
+<script src="{{ asset('assets/vendors/jqvmap/dist/jquery.vmap.js') }}"></script>
+<script src="{{ asset('assets/vendors/jqvmap/dist/maps/jquery.vmap.world.js') }}"></script>
+<script src="{{ asset('assets/vendors/jqvmap/examples/js/jquery.vmap.sampledata.js') }}"></script>
 <!-- bootstrap-daterangepicker -->
-<script src="../vendors/moment/min/moment.min.js"></script>
-<script src="../vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
+<script src="{{ asset('assets/vendors/moment/min/moment.min.js') }}"></script>
+<script src="{{ asset('assets/vendors/bootstrap-daterangepicker/daterangepicker.js') }}"></script>
 
 <!-- Custom Theme Scripts -->
-<script src="../build/js/custom.min.js"></script>
+<script src="{{ asset('assets/build/js/custom.min.js') }}"></script>
 
 </body>
 </html>
